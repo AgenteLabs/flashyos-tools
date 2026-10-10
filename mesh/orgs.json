@@ -1,7 +1,7 @@
 {
   "$schema": "./mesh-roster-1.schema.json",
   "contract": "mesh-roster/1",
-  "generated": "2026-09-29",
+  "generated": "2026-10-10",
   "x-note": "Charter present/roles/valid are MEASURED from a sibling checkout when present, null when the repo is not checked out (unread, never zero). served.handshake is null everywhere: proving a domain serves the handshake needs a live fetch this survey does not make. provision is pending for all until a person runs provision-org-from-charter with DATABASE_URL.",
   "orgs": [
     {
@@ -1224,6 +1224,294 @@
       "repo": "gda-os/gda-os",
       "org": "gda-os",
       "kind": "platform",
+      "charter": {
+        "present": true,
+        "roles": 5,
+        "valid": true
+      },
+      "listing": "public",
+      "served": {
+        "domain": null,
+        "handshake": null
+      },
+      "provision": "pending"
+    },
+    {
+      "repo": "4-foundation/agent-passport",
+      "org": "agent-passport",
+      "kind": "spec",
+      "charter": {
+        "present": true,
+        "roles": 5,
+        "valid": true
+      },
+      "listing": "public",
+      "served": {
+        "domain": null,
+        "handshake": null
+      },
+      "provision": "pending"
+    },
+    {
+      "repo": "4-foundation/agent-task",
+      "org": "agent-task",
+      "kind": "spec",
+      "charter": {
+        "present": true,
+        "roles": 5,
+        "valid": true
+      },
+      "listing": "public",
+      "served": {
+        "domain": null,
+        "handshake": null
+      },
+      "provision": "pending"
+    },
+    {
+      "repo": "4-foundation/adapter",
+      "org": "adapter",
+      "kind": "spec",
+      "charter": {
+        "present": true,
+        "roles": 5,
+        "valid": true
+      },
+      "listing": "public",
+      "served": {
+        "domain": null,
+        "handshake": null
+      },
+      "provision": "pending"
+    },
+    {
+      "repo": "4-foundation/adoption",
+      "org": "adoption",
+      "kind": "spec",
+      "charter": {
+        "present": true,
+        "roles": 5,
+        "valid": true
+      },
+      "listing": "public",
+      "served": {
+        "domain": null,
+        "handshake": null
+      },
+      "provision": "pending"
+    },
+    {
+      "repo": "4-foundation/openai-agents-interop",
+      "org": "openai-agents-interop",
+      "kind": "library",
+      "charter": {
+        "present": true,
+        "roles": 5,
+        "valid": true
+      },
+      "listing": "public",
+      "served": {
+        "domain": null,
+        "handshake": null
+      },
+      "provision": "pending"
+    },
+    {
+      "repo": "4-foundation/spec-kit",
+      "org": "spec-kit",
+      "kind": "library",
+      "charter": {
+        "present": true,
+        "roles": 5,
+        "valid": true
+      },
+      "listing": "public",
+      "served": {
+        "domain": null,
+        "handshake": null
+      },
+      "provision": "pending"
+    },
+    {
+      "repo": "4-foundation/corpus-runner",
+      "org": "corpus-runner",
+      "kind": "tooling",
+      "charter": {
+        "present": true,
+        "roles": 5,
+        "valid": true
+      },
+      "listing": "public",
+      "served": {
+        "domain": null,
+        "handshake": null
+      },
+      "provision": "pending"
+    },
+    {
+      "repo": "4-foundation/create-adapter",
+      "org": "create-adapter",
+      "kind": "tooling",
+      "charter": {
+        "present": true,
+        "roles": 5,
+        "valid": true
+      },
+      "listing": "public",
+      "served": {
+        "domain": null,
+        "handshake": null
+      },
+      "provision": "pending"
+    },
+    {
+      "repo": "4-foundation/adoption-collector",
+      "org": "adoption-collector",
+      "kind": "tooling",
+      "charter": {
+        "present": true,
+        "roles": 5,
+        "valid": true
+      },
+      "listing": "public",
+      "served": {
+        "domain": null,
+        "handshake": null
+      },
+      "provision": "pending"
+    },
+    {
+      "repo": "4-foundation/oss-readiness",
+      "org": "oss-readiness",
+      "kind": "tooling",
+      "charter": {
+        "present": true,
+        "roles": 5,
+        "valid": true
+      },
+      "listing": "public",
+      "served": {
+        "domain": null,
+        "handshake": null
+      },
+      "provision": "pending"
+    },
+    {
+      "repo": "4-foundation/verify-service",
+      "org": "verify-service",
+      "kind": "platform",
+      "charter": {
+        "present": true,
+        "roles": 5,
+        "valid": true
+      },
+      "listing": "public",
+      "served": {
+        "domain": null,
+        "handshake": null
+      },
+      "provision": "pending"
+    },
+    {
+      "repo": "4-foundation/task-notary",
+      "org": "task-notary",
+      "kind": "tooling",
+      "charter": {
+        "present": true,
+        "roles": 5,
+        "valid": true
+      },
+      "listing": "public",
+      "served": {
+        "domain": null,
+        "handshake": null
+      },
+      "provision": "pending"
+    },
+    {
+      "repo": "FlashyLabs/defined",
+      "org": "defined",
+      "kind": "spec",
+      "charter": {
+        "present": true,
+        "roles": 5,
+        "valid": true
+      },
+      "listing": "public",
+      "served": {
+        "domain": null,
+        "handshake": null
+      },
+      "provision": "pending"
+    },
+    {
+      "repo": "FlashyLabs/muniment",
+      "org": "muniment",
+      "kind": "site",
+      "charter": {
+        "present": true,
+        "roles": 5,
+        "valid": true
+      },
+      "listing": "public",
+      "served": {
+        "domain": null,
+        "handshake": null
+      },
+      "provision": "pending"
+    },
+    {
+      "repo": "FlashyLabs/bridge",
+      "org": "bridge",
+      "kind": "tooling",
+      "charter": {
+        "present": true,
+        "roles": 5,
+        "valid": true
+      },
+      "listing": "public",
+      "served": {
+        "domain": null,
+        "handshake": null
+      },
+      "provision": "pending"
+    },
+    {
+      "repo": "FlashyLabs/flashy-agents",
+      "org": "flashy-agents",
+      "kind": "tooling",
+      "charter": {
+        "present": true,
+        "roles": 5,
+        "valid": true
+      },
+      "listing": "public",
+      "served": {
+        "domain": null,
+        "handshake": null
+      },
+      "provision": "pending"
+    },
+    {
+      "repo": "FlashyLabs/nft-capital",
+      "org": "nft-capital",
+      "kind": "site",
+      "charter": {
+        "present": true,
+        "roles": 4,
+        "valid": true
+      },
+      "listing": "public",
+      "served": {
+        "domain": null,
+        "handshake": null
+      },
+      "provision": "pending"
+    },
+    {
+      "repo": "FlashyLabs/h3alth-group",
+      "org": "h3alth-group",
+      "kind": "site",
       "charter": {
         "present": true,
         "roles": 5,
