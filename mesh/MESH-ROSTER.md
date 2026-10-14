@@ -11,7 +11,7 @@ it carries a **valid charter** — measured from a sibling checkout, never assum
 |---|---|
 | `estate-charter.mjs` | Generates an `aao/0.1` charter with **exactly five roles** (five agents) for a repository by kind, plus its `directory/1` fragment and a `MESH.md` note. Refuses to overwrite an existing charter, and never reduces one. Validated against the vendored AAO checker before it writes. |
 | `vendor-mesh-roster.mjs` | The dependency-free checker for `mesh-roster/1` (`check` / `list`). |
-| `build-roster.mjs` | Rebuilds `orgs.json` by **measuring** each repo's charter in a checkout root. A repo not checked out is `present:false, roles:null, valid:null` — unread, never counted as zero. |
+| `build-roster.mjs` | Rebuilds `orgs.json` by **measuring** each repo's charter in a checkout root. A repo not checked out is `present:false, roles:null, valid:null` — unread, never counted as zero. A row's optional fourth TSV column is **why a repository carries no charter on purpose**; it is emitted as the org's `x-note` only where the charter is absent, and the build refuses a reason set on a repository that does carry one. |
 | `estate-provision.mjs` | Turns the roster into a provisioning plan: the exact `provision-org-from-charter` command and tier per ready org. `--commit` refuses without `DATABASE_URL`. |
 
 ```bash
@@ -46,6 +46,31 @@ npx tsx packages/api/scripts/provision-org-from-charter.ts \
 That is a `DATABASE_URL` write run by whoever holds it, never by a workflow
 without the secret — a live org is a decision a person signs. `estate-provision.mjs`
 prints the plan; it will not run it for you.
+
+## What is deliberately out, and why it is named
+
+Ninety-six repositories are in the population; **seventy-nine carry a valid
+charter** and are the Flashy public mesh. The seventeen without one are not an
+oversight — each names its reason in `repos.tsv`'s fourth column, carried into
+`orgs.json` as the org's `x-note`, in three families:
+
+- **Client work** (`marco-law`, `multibank-litigation`, `aihumans-website`) —
+  the organisation is a client's or a second shareholder's, and the grant to
+  list it in *our* mesh is theirs to make, not ours.
+- **Dormant imports** (`life-staking`, `life-bridge`, `life-username-platform`,
+  `flashy-wallet`, `flashy-wallet-api`, `flashy-wallet-admin`) — LIFE-era
+  archives, not operated; a charter would declare a governing org that does no
+  work.
+- **Empty placeholders and the org profile** (`sarahgord`, `music-hub`,
+  `fashion-st`, `flashy-fashion`, `mystandard-website`, `FlashyMobileLegacy`,
+  `FlashyGold`, `.github`) — a repository with no property behind it has no
+  organisation to make conforming, and each enters the mesh the day it ships
+  something, not before.
+
+A gap and a decision look identical from a count, so the register states which
+is which — the same rule every other register in this estate keeps. Fabricating
+a charter for an empty or a client repository to raise the number would be the
+dishonest figure the mesh exists to refuse.
 
 ## Repo-only, not part of the published package
 

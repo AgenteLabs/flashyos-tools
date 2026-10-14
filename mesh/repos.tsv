@@ -45,32 +45,32 @@ FlashyLabs/wdk-capability-audit	tooling	wdk-capability-audit
 FlashyLabs/4ventures	site	4ventures
 FlashyLabs/mlgblockchain	site	mlgblockchain
 FlashyLabs/michaelgord	site	michaelgord
-FlashyLabs/sarahgord	site	sarahgord
+FlashyLabs/sarahgord	site	sarahgord	A personal placeholder awaiting its first push; an empty repository has no organisation to make conforming.
 FlashyLabs/flashylabs	site	flashylabs
 FlashyLabs/personality-ai	site	personality-ai
-FlashyLabs/music-hub	site	music-hub
-FlashyLabs/fashion-st	site	fashion-st
-FlashyLabs/flashy-fashion	site	flashy-fashion
-FlashyLabs/mystandard-website	site	mystandard-website
+FlashyLabs/music-hub	site	music-hub	A placeholder site awaiting its first push — a handful of files, no property yet, so no org to charter.
+FlashyLabs/fashion-st	site	fashion-st	A placeholder site awaiting its first push — a handful of files, no property yet, so no org to charter.
+FlashyLabs/flashy-fashion	site	flashy-fashion	A placeholder site with no deploy and no package; nothing ships from it yet, so there is no org to charter.
+FlashyLabs/mystandard-website	site	mystandard-website	A placeholder site awaiting its first push; an empty repository has no organisation to make conforming.
 FlashyLabs/palcapital	site	palcapital
 FlashyLabs/metaverse-ventures	site	metaverse-ventures
 FlashyLabs/dais-global	client	dais-global
 FlashyLabs/kopman-build	client	kopman-build
-FlashyLabs/marco-law	client	marco-law
-FlashyLabs/multibank-litigation	client	multibank-litigation
-FlashyLabs/life-staking	client	life-staking
-FlashyLabs/life-bridge	client	life-bridge
-FlashyLabs/life-username-platform	client	life-username-platform
-FlashyLabs/flashy-wallet	client	flashy-wallet
-FlashyLabs/flashy-wallet-api	client	flashy-wallet-api
-FlashyLabs/flashy-wallet-admin	client	flashy-wallet-admin
-FlashyLabs/aihumans-website	client	aihumans-website
+FlashyLabs/marco-law	client	marco-law	Client work (Marco Law): we build the site, the client owns it — chartering it into our mesh would claim an org that is not ours.
+FlashyLabs/multibank-litigation	client	multibank-litigation	Client work: the organisation is the client's and the grant to list it in the Flashy mesh is theirs to make, not ours.
+FlashyLabs/life-staking	client	life-staking	A dormant LIFE-era archive, imported and not operated; a charter would declare a governing org that does no work.
+FlashyLabs/life-bridge	client	life-bridge	A dormant LIFE-era archive, imported and not operated; a charter would declare a governing org that does no work.
+FlashyLabs/life-username-platform	client	life-username-platform	A dormant LIFE-era archive, imported and not operated; a charter would declare a governing org that does no work.
+FlashyLabs/flashy-wallet	client	flashy-wallet	A dormant LIFE wallet import, awaiting the Flashy Finance Phase 3 decision; nothing governs here yet to charter.
+FlashyLabs/flashy-wallet-api	client	flashy-wallet-api	A dormant LIFE wallet backend import; it enters the mesh when the wallet it serves is revived, not before.
+FlashyLabs/flashy-wallet-admin	client	flashy-wallet-admin	A dormant LIFE wallet operator portal import; it enters the mesh alongside the backend it administers, not before.
+FlashyLabs/aihumans-website	client	aihumans-website	A second shareholder's property; its organisation and release cadence are not this estate's to charter.
 FlashyLabs/buildos	tooling	buildos
 FlashyLabs/second-brain	vault	second-brain
 FlashyLabs/ritualos	vault	ritualos
-FlashyLabs/FlashyMobileLegacy	vault	FlashyMobileLegacy
-FlashyLabs/FlashyGold	vault	FlashyGold
-FlashyLabs/.github	vault	dot-github
+FlashyLabs/FlashyMobileLegacy	vault	FlashyMobileLegacy	A legacy mobile archive, kept for the record and not operated; there is no governing org to declare.
+FlashyLabs/FlashyGold	vault	FlashyGold	An empty placeholder — flashy-gold is the live property; this repository has no organisation to charter.
+FlashyLabs/.github	vault	dot-github	The organisation profile page, not an organisation; there is nothing here for an AAO charter to govern.
 Rites-Network/ritual-spec	spec	ritual-spec
 magician-network/trust-spec	spec	trust-spec
 magician-network/trustgraph	platform	trustgraph
@@ -93,3 +93,4 @@ FlashyLabs/bridge	tooling	bridge
 FlashyLabs/flashy-agents	tooling	flashy-agents
 FlashyLabs/nft-capital	site	nft-capital
 FlashyLabs/h3alth-group	site	h3alth-group
+FlashyLabs/Rites-Network	site	Rites-Network

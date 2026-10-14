@@ -1,7 +1,7 @@
 {
   "$schema": "./mesh-roster-1.schema.json",
   "contract": "mesh-roster/1",
-  "generated": "2026-10-10",
+  "generated": "2026-10-14",
   "x-note": "Charter present/roles/valid are MEASURED from a sibling checkout when present, null when the repo is not checked out (unread, never zero). served.handshake is null everywhere: proving a domain serves the handshake needs a live fetch this survey does not make. provision is pending for all until a person runs provision-org-from-charter with DATABASE_URL.",
   "orgs": [
     {
@@ -770,7 +770,8 @@
         "domain": null,
         "handshake": null
       },
-      "provision": "pending"
+      "provision": "pending",
+      "x-note": "A personal placeholder awaiting its first push; an empty repository has no organisation to make conforming."
     },
     {
       "repo": "FlashyLabs/flashylabs",
@@ -818,7 +819,8 @@
         "domain": null,
         "handshake": null
       },
-      "provision": "pending"
+      "provision": "pending",
+      "x-note": "A placeholder site awaiting its first push — a handful of files, no property yet, so no org to charter."
     },
     {
       "repo": "FlashyLabs/fashion-st",
@@ -834,7 +836,8 @@
         "domain": null,
         "handshake": null
       },
-      "provision": "pending"
+      "provision": "pending",
+      "x-note": "A placeholder site awaiting its first push — a handful of files, no property yet, so no org to charter."
     },
     {
       "repo": "FlashyLabs/flashy-fashion",
@@ -850,7 +853,8 @@
         "domain": null,
         "handshake": null
       },
-      "provision": "pending"
+      "provision": "pending",
+      "x-note": "A placeholder site with no deploy and no package; nothing ships from it yet, so there is no org to charter."
     },
     {
       "repo": "FlashyLabs/mystandard-website",
@@ -866,7 +870,8 @@
         "domain": null,
         "handshake": null
       },
-      "provision": "pending"
+      "provision": "pending",
+      "x-note": "A placeholder site awaiting its first push; an empty repository has no organisation to make conforming."
     },
     {
       "repo": "FlashyLabs/palcapital",
@@ -946,7 +951,8 @@
         "domain": null,
         "handshake": null
       },
-      "provision": "pending"
+      "provision": "pending",
+      "x-note": "Client work (Marco Law): we build the site, the client owns it — chartering it into our mesh would claim an org that is not ours."
     },
     {
       "repo": "FlashyLabs/multibank-litigation",
@@ -962,7 +968,8 @@
         "domain": null,
         "handshake": null
       },
-      "provision": "pending"
+      "provision": "pending",
+      "x-note": "Client work: the organisation is the client's and the grant to list it in the Flashy mesh is theirs to make, not ours."
     },
     {
       "repo": "FlashyLabs/life-staking",
@@ -978,7 +985,8 @@
         "domain": null,
         "handshake": null
       },
-      "provision": "pending"
+      "provision": "pending",
+      "x-note": "A dormant LIFE-era archive, imported and not operated; a charter would declare a governing org that does no work."
     },
     {
       "repo": "FlashyLabs/life-bridge",
@@ -994,7 +1002,8 @@
         "domain": null,
         "handshake": null
       },
-      "provision": "pending"
+      "provision": "pending",
+      "x-note": "A dormant LIFE-era archive, imported and not operated; a charter would declare a governing org that does no work."
     },
     {
       "repo": "FlashyLabs/life-username-platform",
@@ -1010,7 +1019,8 @@
         "domain": null,
         "handshake": null
       },
-      "provision": "pending"
+      "provision": "pending",
+      "x-note": "A dormant LIFE-era archive, imported and not operated; a charter would declare a governing org that does no work."
     },
     {
       "repo": "FlashyLabs/flashy-wallet",
@@ -1026,7 +1036,8 @@
         "domain": null,
         "handshake": null
       },
-      "provision": "pending"
+      "provision": "pending",
+      "x-note": "A dormant LIFE wallet import, awaiting the Flashy Finance Phase 3 decision; nothing governs here yet to charter."
     },
     {
       "repo": "FlashyLabs/flashy-wallet-api",
@@ -1042,7 +1053,8 @@
         "domain": null,
         "handshake": null
       },
-      "provision": "pending"
+      "provision": "pending",
+      "x-note": "A dormant LIFE wallet backend import; it enters the mesh when the wallet it serves is revived, not before."
     },
     {
       "repo": "FlashyLabs/flashy-wallet-admin",
@@ -1058,7 +1070,8 @@
         "domain": null,
         "handshake": null
       },
-      "provision": "pending"
+      "provision": "pending",
+      "x-note": "A dormant LIFE wallet operator portal import; it enters the mesh alongside the backend it administers, not before."
     },
     {
       "repo": "FlashyLabs/aihumans-website",
@@ -1074,7 +1087,8 @@
         "domain": null,
         "handshake": null
       },
-      "provision": "pending"
+      "provision": "pending",
+      "x-note": "A second shareholder's property; its organisation and release cadence are not this estate's to charter."
     },
     {
       "repo": "FlashyLabs/buildos",
@@ -1138,7 +1152,8 @@
         "domain": null,
         "handshake": null
       },
-      "provision": "pending"
+      "provision": "pending",
+      "x-note": "A legacy mobile archive, kept for the record and not operated; there is no governing org to declare."
     },
     {
       "repo": "FlashyLabs/FlashyGold",
@@ -1154,7 +1169,8 @@
         "domain": null,
         "handshake": null
       },
-      "provision": "pending"
+      "provision": "pending",
+      "x-note": "An empty placeholder — flashy-gold is the live property; this repository has no organisation to charter."
     },
     {
       "repo": "FlashyLabs/.github",
@@ -1170,7 +1186,8 @@
         "domain": null,
         "handshake": null
       },
-      "provision": "pending"
+      "provision": "pending",
+      "x-note": "The organisation profile page, not an organisation; there is nothing here for an AAO charter to govern."
     },
     {
       "repo": "Rites-Network/ritual-spec",
@@ -1515,6 +1532,22 @@
       "charter": {
         "present": true,
         "roles": 5,
+        "valid": true
+      },
+      "listing": "public",
+      "served": {
+        "domain": null,
+        "handshake": null
+      },
+      "provision": "pending"
+    },
+    {
+      "repo": "FlashyLabs/Rites-Network",
+      "org": "rites-network",
+      "kind": "site",
+      "charter": {
+        "present": true,
+        "roles": 3,
         "valid": true
       },
       "listing": "public",
