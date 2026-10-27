@@ -9,7 +9,7 @@
       ██
 ```
 
-[![CI](https://github.com/flashylabs/flashyos-tools/actions/workflows/ci.yml/badge.svg)](https://github.com/flashylabs/flashyos-tools/actions/workflows/ci.yml) [![License](https://img.shields.io/badge/licence-Apache--2.0-blue)](LICENSE)
+[![CI](https://github.com/AgenteLabs/flashyos-tools/actions/workflows/ci.yml/badge.svg)](https://github.com/AgenteLabs/flashyos-tools/actions/workflows/ci.yml) [![License](https://img.shields.io/badge/licence-Apache--2.0-blue)](LICENSE)
 
 **Two small answers to questions that fail silently.**
 
@@ -184,5 +184,5 @@ tooling is open; fork either, and check ours against yours.
 
 `directory/1`, `frontdoor/1`, `countersign/1`, `backlog/1`, `shipped/1` and the
 rest are Apache-2.0 and specified in the open at
-[github.com/flashylabs](https://github.com/flashylabs). Nothing in them requires
+[github.com/AgenteLabs](https://github.com/AgenteLabs). Nothing in them requires
 an account, a key, or a call to us — including the checking.
