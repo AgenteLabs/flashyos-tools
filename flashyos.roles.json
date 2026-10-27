@@ -9,7 +9,7 @@
   "repositories": [
     {
       "name": "flashyos-tools",
-      "url": "github.com/FlashyLabs/flashyos-tools",
+      "url": "github.com/AgenteLabs/flashyos-tools",
       "default": true,
       "holds": [
         "tooling",
