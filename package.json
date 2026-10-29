@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Two small answers to questions that fail silently.",
   "license": "Apache-2.0",
-  "author": "Flashy Labs",
+  "author": "Agente Labs",
   "type": "module",
   "repository": {
     "type": "git",
